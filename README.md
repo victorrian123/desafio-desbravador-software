@@ -4,7 +4,7 @@ Aplicação web que consome a API do GitHub para exibir informações de usuári
 
 ## 🔗 Demo
 
-> **[github-explorer-victor.netlify.app](https://github-explorer-victor.netlify.app)** ← atualizar após o deploy
+> **[teal-chimera-cead29.netlify.app](https://teal-chimera-cead29.netlify.app)**
 
 ---
 
