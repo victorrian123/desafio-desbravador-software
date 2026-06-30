@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const exampleUsers = ['torvalds', 'gaearon', 'sindresorhus']
-
 export default function SearchPage() {
   const [usernameInput, setUsernameInput] = useState('')
   const navigate = useNavigate()
@@ -32,18 +30,6 @@ export default function SearchPage() {
           Buscar
         </button>
       </form>
-      <p className="mt-4 small text-secondary">
-        Exemplos:{' '}
-        {exampleUsers.map((user) => (
-          <button
-            key={user}
-            className="btn btn-link btn-sm text-secondary p-0 me-2"
-            onClick={() => navigate(`/user/${user}`)}
-          >
-            {user}
-          </button>
-        ))}
-      </p>
     </div>
   )
 }
