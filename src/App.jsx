@@ -17,9 +17,6 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-      <footer className="py-3 text-center text-muted small border-top">
-        GitHub Explorer &mdash; Desbravador Software Challenge
-      </footer>
     </div>
   )
 }
