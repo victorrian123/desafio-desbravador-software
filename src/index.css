@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.avatar-lg {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.repo-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.hero-search {
+  background: linear-gradient(135deg, #24292f 0%, #161b22 100%);
+  min-height: 280px;
+}
+
+.lang-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
